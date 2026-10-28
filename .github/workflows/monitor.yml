@@ -3,7 +3,7 @@ name: Goethe Course Monitor
 on:
   schedule:
     # প্রতি ৫ মিনিট পর পর অটোমেটিক চেক করবে (২৪/৭)
-    - cron: '*/1 * * * *'
+    - cron: '* * * * *'
   workflow_dispatch: # আপনি চাইলে ম্যানুয়ালি বাটনে ক্লিক করেও রান করতে পারবেন
 
 permissions:
